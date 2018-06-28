@@ -1,12 +1,55 @@
 <html>
 <head>
-    <title>My page</title>
+    <title>My Page</title>
+    <meta charset="utf-8">
+    <style type="text/css">
+    * {
+        margin:0;
+        box-sizing:border-box;
+    }
+    #box, #b {
+        background-color: blue;
+        padding:20px;
+        margin:10px;
+        width:300px;
+        /*float:right;*/
+        border:5px solid black;
+        box-sizing:border-box;
+        overflow: auto;
+    }
+    #content, #c{
+
+        background-color: red;
+
+    }
+    #outer{
+        background-color: #00FFFF;
+        border:2px solid black;
+        margin:20px;
+        overflow: auto;
+        
+    }
+    </style>
 </head>
 <body>
-<h1> Hello  world</h1>
-<p>Here are my some Profile links </p>
-<a href="https://www.facebook.com/amitj4056" target="_blank">Facebook</a>
-<a href="https://github.com/amitj4056" target="_blank">GitHuB</a>
-<a href="https://www.linkedin.com/in/amit-j4056/" target="_blank">LinkedIn</a>
+    <h1>Hello world</h1>
+<div  id="outer" >
+    <div id="box" >
+        <div id="content">
+            Hey there, This is my Practice work for Box Model
+        </div>
+        
+    </div>
+    <div id="b">
+        <div id="c">
+            Hey there, This is my Practice work for Box Model
+        </div>
+        
+    </div>
+    <section style="clear:both; text-align:right;margin:10px;min-width:350px">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+       
+    </section>
+</div>
 </body>
 </html>
