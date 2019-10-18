@@ -1,3 +1,2 @@
 # jerry
-Description we add later
-edit
+Repo for Coursera course assignments
